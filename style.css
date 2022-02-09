@@ -1,0 +1,118 @@
+.campaign-banner {
+	background-color: #7ee8fa; /* choose a gradient from https://www.eggradients.com/ */
+	border-radius: 9px;
+	color: white;
+	margin: 20px auto;
+	max-width: 1440px;
+	width: 96%;
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
+		Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+	padding: 20px 0;
+	position: relative;
+	border: 2px solid #dfe3e6;
+	box-shadow: 2px 2px 2px #dfe3e6;
+	overflow: hidden;
+}
+
+.header-text {
+	display: inline-block;
+}
+
+.cards {
+	margin-left: 30px;
+	display: flex;
+	overflow-x: auto;
+  overflow-y: hidden;
+}
+
+.cards .nutrition img {
+	height: 200px;
+  width: 160px;
+}
+
+.cards .sleep img {
+	height: 200px;
+  width: 170px;
+}
+
+.cards .hydration img {
+	height: 200px;
+  width: 130px;
+}
+
+.cards .wellbeing img {
+	height: 200px;
+  width: 210px;
+}
+
+.cards .play img {
+	height: 200px;
+  width: 160px;
+}
+
+.cards .workout img {
+	height: 200px;
+  width: 190px;
+}
+
+.cards .intimacy img {
+	height: 200px;
+  width: 220px;
+}
+
+.cards .addiction img {
+	height: 200px;
+  width: 170px;
+}
+
+
+.cards img {
+	margin-right: 25px;
+	max-height: 200px;
+	border-radius: 8px;
+}
+
+.cards-left-padding {
+	margin-left: 25px;
+  margin-right: 25px;
+}
+
+.cards p {
+  font-size: 20px;
+  text-align: center;
+}
+
+.cards::-webkit-scrollbar {
+	display: none;
+}
+
+.scroll-touch {
+	-webkit-overflow-scrolling: touch; /* Lets it scroll lazy */
+}
+
+.campaign-banner h1 {
+	font-size: 50px;
+	font-weight: 900;
+	line-height: 1;
+	padding-top: 10px;
+	padding-bottom: 40px;
+	margin-left: 30px;
+	color: white;
+}
+
+.campaign-button {
+  margin-right: 18px;
+  padding-top: 40px;
+}
+
+.campaign-button a {
+  background: blue;
+  color: white;
+  text-decoration: none;
+  padding: 12px 25px;
+  font-size: 20px;
+  border-radius: 8px;
+  display: inline-block;
+  max-width: 80%;
+  margin: 20px 20px auto 20px;
+}
